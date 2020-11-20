@@ -7,18 +7,18 @@ public class Main {
             if (beerNum == 1) {
                 word = "бутылка";
             }
-            System.out.println(beerNum + " " + word + " пивасика на столе");
-            System.out.println(beerNum + " " + word + " пивасика");
+            System.out.println(beerNum + " " + word + " лимонада на столе");
+            System.out.println(beerNum + " " + word + " лимонада на столе");
             System.out.println("Возьми одну.");
-            System.out.println("Пусти по рукам.");
+            System.out.println("Пусти по кругу.");
             beerNum = beerNum - 1;
             if (beerNum > 0) {
                 if (beerNum == 1) {
                     word = "бутылка";
                 }
-                System.out.println(beerNum + " " + word + " пива на столе");
+                System.out.println(beerNum + " " + word + " лимонада на столе");
             } else {
-                System.out.println("Нет уже пивасика");
+                System.out.println("Нет уже лимонада");
             }
         }
     }
